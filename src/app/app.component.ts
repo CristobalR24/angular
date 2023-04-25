@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NG_ASYNC_VALIDATORS } from '@angular/forms';
+import { SuperiorComponent } from './superior/superior.component';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,11 @@ import { NG_ASYNC_VALIDATORS } from '@angular/forms';
 
 export class AppComponent {
   constructor(){}
+  
+  nuevoTitulo = "No sirvo";
+
+  public cambiarTitulo(titulo:string){
+    this.nuevoTitulo=titulo;
+  }
+
 }

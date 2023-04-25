@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { SuperiorComponent } from '../superior/superior.component';
 
 @Component({
   selector: 'app-inferior',
@@ -11,5 +12,7 @@ export class InferiorComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  @Input() Titulo="";
 
 }

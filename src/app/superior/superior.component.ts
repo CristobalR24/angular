@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-superior',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class SuperiorComponent implements OnInit {
+
+  @Output() public tituloValor="Our Latest Projects";
 
   constructor() { }
 

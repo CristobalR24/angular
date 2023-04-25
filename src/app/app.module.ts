@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SuperiorComponent } from './superior/superior.component';
 import { InferiorComponent } from './inferior/inferior.component';
+import { FuzzBuzzComponent } from './fuzz-buzz/fuzz-buzz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SuperiorComponent,
-    InferiorComponent
+    InferiorComponent,
+    FuzzBuzzComponent
   ],
   imports: [
     BrowserModule,
@@ -19,4 +21,6 @@ import { InferiorComponent } from './inferior/inferior.component';
   providers: [],
   bootstrap: [AppComponent,SuperiorComponent,InferiorComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+ }
