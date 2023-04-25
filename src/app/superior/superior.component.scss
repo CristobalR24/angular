@@ -1,0 +1,32 @@
+html,body{padding: 0;margin: 0;}
+
+.titulo_box{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+
+.titulo_texto{font-family: sans-serif;
+            font-weight:800;
+            margin-top: 4rem;}
+
+.titulo_linea{border: 0;
+            clear:both;
+            display:block;
+            border-radius: 5px;
+            width: 50%;               
+            background-color:rgb(35, 192, 35);
+            height: 5px;}
+
+.subtitulo_box{width: 60%;
+            text-align: center;}
+
+.subtitulo_texto{font-family: sans-serif;
+                font-size: 1.11rem;
+                }
+
+@media screen and (max-width: 768px){
+    .subtitulo_box{width: 90%;}
+
+    .titulo_linea{width: 90%;}
+}
